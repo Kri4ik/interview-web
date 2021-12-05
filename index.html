@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css//reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <main>
+    <section class="flex_row_1">
+      <div class="flex_item_2">
+        <img id="text-on-img" src="/img/INTERVIEW.png" alt="#" style="width: 92.68px;
+            height: 12.87px;">
+      </div>
+      <div class="flex_item_3">
+        <div class="mobile-container">
+
+          <!-- Simulate a smartphone / tablet -->
+          <div class="mobile-container">
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+
+              <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div>
+    </section>
+  </main>
+</body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "inline-block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "inline-block";
+    }
+  }
+</script>
+
+</html>
