@@ -47,17 +47,17 @@ main{
     width: auto;
 }
 .mobile-container {
-    max-width: auto;
     margin: auto;
-    background-color: #555;
-    height: auto;
-    color: white;
     border-radius: 3px;
+    color: #000;
+    background-color: black;
+    text-align: center;
+    width: 200px;
   }
   
   .topnav {
     overflow: hidden;
-    background-color: #888;
+
     position: relative height 50px;
   }
   
@@ -72,19 +72,26 @@ main{
     font-size: 17px;
     display: block;
   }
+
+  .topnav a:hover{
+    color: #cf2d2d;
+  }
   
   .topnav a.icon {
-    background: black;
-    display: relative;
+    display: block;
     position: absolute;
     right: 0;
     top: 0;
     z-index: 0;
+    margin-top: 7px;
   }
 .flex_item_3{
-    border: 5px solid rgb(56, 33, 187);
+    /* border: 5px solid rgb(56, 33, 187); */
     
 
 }
-
-
+.text-on-img{
+  width: 92.68px;
+  height: 12.78px;
+  margin: 27.13px 0 0 25.13px;
+}
