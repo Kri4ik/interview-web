@@ -1,0 +1,15 @@
+@font-face {
+    font-family: SF-regular;
+    src: url("fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: SF-medium;
+    src: url("fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
+
+/* @font-face {
+    font-family: GraublauWeb;
+    font-weight: bold;
+    src: url("path/GraublauWebBold.otf") format("opentype");
+} */
