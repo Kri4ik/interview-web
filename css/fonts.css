@@ -8,6 +8,12 @@
     src: url("fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
 }
 
+
+@font-face {
+    font-family: SF-bold;
+    src: url("fonts/SFPRODISPLAYBOLD.OTF    ") format("opentype");
+}
+
 /* @font-face {
     font-family: GraublauWeb;
     font-weight: bold;
