@@ -1,44 +1,53 @@
 
 
+
+
 html,
 body {
     height: 100%;
     line-height: 1;
     font-size: 16px;
     font-family: 'SF-medium', sans-serif;
-    /* font-family: 'Noto Sans', sans-serif; */
 } 
-/*-----------------------------------------------------*/
 
 main{
-    /* border: 10px groove rgb(238, 255, 0); */
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1903px;
+  } 
+  @media (max-width: 1903px) {
+    .main{
+      max-width: 1440px;
+    }
   }
+
+    @media (max-width:1440px){
+      .main{
+        max-width: 720px;
+        font-size: 36px;
+      }
+  }
+
+    @media (max-width:720px){
+    .main{
+      max-width: 375px;
+    }
+}
+
   .flex_row_1{
-    /* border: 15px solid rgb(173, 10, 10); */
     display: flex;
     justify-content: space-between;
     background-color: #cccccc;
     width:100% ;
     height: 1130px;
     background: url('../img/background.png') no-repeat center top / cover;
-    
-
 }
+
 .flex_row_2 {
-  border: 5px solid brown;
   display: flex;
   height: 1065px;
   width: auto;
   justify-content: space-between;
-}
-
-
-
-.flex_item_1{
-    border: 5px solid tomato;
 }
 
 .flex_item_2{
@@ -172,7 +181,6 @@ main{
   height: 350px;
 }
 .flex_row_3 { 
-  border: 5px solid rgb(31, 29, 163);
   height: 750px;
   width: auto;
   text-align: right;
@@ -180,14 +188,12 @@ main{
 }
 
 .flex_container_2 {
-  border: 5px solid #fff;  
   display: flex;
   height: 750px;
   width: 100%;
 } 
 .item_1 {
   flex: 0;
-  border: 5px solid rgb(9, 151, 52);
   flex-basis: 50%;
   display: flex;
   justify-content: end;
@@ -206,7 +212,6 @@ main{
   width: 405px;
   height:  501px;
   color: #fff;
-  border: 1px solid gray;
   padding-top: 135px;
 }
 .textbox__white-number-1 {
@@ -238,7 +243,6 @@ main{
 
 .item_2 {
   flex-grow: 1;
-  border: 5px solid rgb(200, 188, 15);
   flex-basis: 50%;
   width: 1440px;
   height: 750px;
@@ -246,7 +250,7 @@ main{
 .rec_3 {
   display: flex;
   text-align: end;
-  margin-top: 31px;
+  margin-top: 135px;
   margin-right: 0px;
   margin-left: 80px;
   width: 1040px;
@@ -265,7 +269,6 @@ main{
   width: 411px;
   height:  313px;
   color: #fff;
-  border: 1px solid gray;
 }
 .textbox__white-number-2{
   font-family: 'SF-bold', sans-serif;
@@ -287,13 +290,11 @@ main{
   position: absolute;
   height: 20px;
   left: 1784px;
-  border: 1px solid tomato;
   margin-top: 233px;
   color: #fff;
 }
 
 .flex__row-5 {
-  border: 4px solid turquoise;
   width: 100%;
   height: 750px;
 }
@@ -311,7 +312,6 @@ main{
   width: 405px;
   height:  501px;
   color: rgb(0, 0, 0);
-  border: 1px solid gray;
   padding-top: 85px;
   
 }
@@ -349,7 +349,6 @@ main{
 }
 
 .flex__container-3{
-  border: 5px solid #fff;  
   display: flex;
   height: 750px;
   width: 100%;
@@ -368,12 +367,8 @@ main{
 
 .flex__row-6 {
   display: flex;
-  border: 4px solid rebeccapurple;
   width: 100%;
   height: 1212px;
-}
-.flex__container-3 {
-
 }
 
 .textbox__left-page-6{
@@ -386,7 +381,6 @@ main{
 }
 
 .textbox__subtitle-section {
-  border:5px solid red;
   width: 878px;
   display: flex;
   flex-direction: column;
@@ -394,7 +388,7 @@ main{
   padding-right: 187px;
 }
 
- .textbox__black-number-4{
+.textbox__black-number-4{
   padding-top: 73px;
   padding-right: 205px;
   }
@@ -431,7 +425,6 @@ main{
 
 .flexbox__img {
     flex-grow: 1;
-    border: 5px solid rgb(200, 188, 15);
     flex-basis: 50%;
     width: 100%;
     height: 1130px;
@@ -440,14 +433,13 @@ main{
 }
 
 .footer {
-  border: 4px solid rgb(38, 228, 148);
   width: 100%;
   height: 170px;
 }
 .footer__section-1 {
   display: flex;
   margin: 66px 1051px 77px 143px;
-  width: 100%;
+  width: 1670px
 }
 
 
